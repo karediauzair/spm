@@ -1,0 +1,24 @@
+Project Brief: Smart Civic — Unified Civic Complaint Management System
+One line: A single web platform where citizens of a municipal ward can report any civic issue — sanitation, roads, water, electrical, transport, safety, or public facilities — and track it through to resolution, instead of juggling a different app for every department.
+The Problem
+Municipal wards run on fragmented complaint channels: one app for sanitation, a national portal for general grievances, city-specific tools for others, and often no clear channel for issues that don't fit a single category. Citizens either give up reporting, or file in the wrong place and the complaint stalls with no accountable owner.
+The Solution
+Smart Civic gives every citizen one interface to report a civic issue and one place to track it. Each complaint is verified, auto-routed to the correct department, and followed through a transparent status timeline until resolved.
+Key Features
+
+Verified reporting — mobile-number + OTP login, one account per number, no duplicate/fake accounts
+Live, camera-only photo capture with automatic GPS geotagging — no gallery uploads
+AI authenticity check — flags suspicious images at submission (EXIF/GPS consistency check)
+Human-readable location — reverse-geocoded address, not just raw coordinates, plus a map view
+Department-wise auto-routing — every complaint reaches the officer actually responsible for it
+Two dedicated portals — a citizen-facing reporting/tracking app, and a separate officer portal with a department-scoped complaint queue
+Status Ledger — a full timeline (Received → Assigned → In Progress → Resolved) with timestamps and officer notes, visible to the citizen in real time
+What Makes It Different
+Most existing tools solve only one half of the problem: apps like Swachhata verify well but cover one department; broader portals like CPGRAMS cover many departments but with weak verification and no live-capture or routing intelligence. Smart Civic is built to do both — broad department coverage and verified, accountable reporting — in one product.
+Current Status
+Working web-based MVP: citizen and officer portals, live complaint filing and tracking, department-based routing, and a status timeline are functional and demoable end to end.
+Tech Stack
+React (Vite) + Tailwind · Node.js/Express · PostgreSQL + PostGIS · Leaflet/OpenStreetMap for maps · Nominatim for reverse geocoding · Mobile OTP auth
+Scope Note
+This is a web-based prototype built for a college field project, using Mumbai's municipal wards as the working example. A native mobile app, multilingual support, and ward/city-scale rollout are future scope beyond the current build.
+this is my project so make me a er diagram reference image is given
